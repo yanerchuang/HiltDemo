@@ -1,0 +1,18 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+//buildscript {
+//    ext {
+//    }
+//    repositories {
+//        gradlePluginPortal()
+//    }
+//    dependencies {
+//        classpath 'com.google.dagger:hilt-android-gradle-plugin:2.28-alpha'
+//
+//    }
+//}
+plugins {
+    id 'com.android.application' version '7.3.0-alpha04' apply false
+    id 'com.android.library' version '7.3.0-alpha04' apply false
+    // 新的
+    id 'com.google.dagger.hilt.android' version '2.41' apply false
+}
